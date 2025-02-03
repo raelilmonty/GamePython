@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "python_venv"
+version = "0.1.0"
+description = "BJ and rockscissorpaper + Fiche perso."
+authors = [
+    { name = "antho", email = "montoya69008@gmail.com" }
+]
+dependencies = [
+    "colorama",
+    "faker"
+]
+
+[tool.setuptools]
+packages = ["python_venv"]
