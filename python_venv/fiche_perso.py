@@ -1,6 +1,7 @@
 from faker import Faker
 import random
 
+
 fake = Faker('fr_FR')
 
 def generate_character():

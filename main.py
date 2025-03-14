@@ -1,4 +1,5 @@
 def main():
+
     while True:
         print("Select game:")
         print("1. BlackJack")
