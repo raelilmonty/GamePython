@@ -5,7 +5,8 @@ def test_generate_character():
 
     assert isinstance(character, dict)
 
-    required_keys = ["Nom", "Race", "Classe", "Force", "Dextérité", "Constitution", "Intelligence", "Sagesse", "Charisme", "Historique"]
+    required_keys = ["Nom", "Race", "Classe", "Force", "Dextérité", "Constitution",
+                     "Intelligence", "Sagesse", "Charisme", "Historique"]
     for key in required_keys:
         assert key in character
 
