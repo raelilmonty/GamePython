@@ -8,7 +8,7 @@ pip install .
 ```
 Lancer le projet via la commande
 ```
-python main
+python main.py
 ```
 ## Fonctionnalités
 - BlackJack
